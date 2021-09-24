@@ -29,6 +29,7 @@ namespace Offers.Models
     }
     public int SetPrice()
     {
+      Price = Amount * 2;
       return Price;
     }
   }
