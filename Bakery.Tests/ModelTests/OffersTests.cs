@@ -15,5 +15,11 @@ namespace Bakery.Tests
       Bread freshBread = new Bread(1);
       Assert.AreEqual(typeof(Bread), freshBread.GetType());
     }
+    [TestMethod]
+    public void PastryOrder_OrderOnePastry_Pastry()
+    {
+      Pastry freshPastry = new Pastry(1);
+      Assert.AreEqual(typeof(Pastry), freshPastry.GetType());
+    }
   }
 }
