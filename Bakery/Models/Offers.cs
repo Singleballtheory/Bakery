@@ -34,6 +34,11 @@ namespace Offers.Models
     }
     public int SetPrice()
     {
+      if (Amount >= 3)
+      {
+        Price = ((Amount / 3) * 5) + ((Amount % 3 ) * 2);
+        return Price;
+      }
       Price = Amount * 2;
       return Price;
     }
