@@ -27,5 +27,9 @@ namespace Offers.Models
       Amount = amount;
       Price = price;
     }
+    public int SetPrice()
+    {
+      return Price;
+    }
   }
 }

@@ -29,5 +29,13 @@ namespace Bakery.Tests
       newBread.SetPrice();
       Assert.AreEqual(5, newBread.SetPrice());
     }
+    [TestMethod]
+    public void PastryPrice_SetPrice_Int()
+    {
+      int pastryAmount = 1;
+      Pastry newPastry = new Pastry(pastryAmount);
+      newPastry.SetPrice();
+      Assert.AreEqual(2, newPastry.SetPrice());
+    }
   }
 }
