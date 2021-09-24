@@ -14,6 +14,7 @@ namespace Offers.Models
     }
     public int SetPrice()
     {
+      Price = Amount * 5;
       return Price;
     }
   }
