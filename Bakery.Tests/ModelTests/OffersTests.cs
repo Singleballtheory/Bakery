@@ -53,5 +53,13 @@ namespace Bakery.Tests
       newPastry.SetPrice();
       Assert.AreEqual(5, newPastry.SetPrice());
     }
+        [TestMethod]
+    public void BreadDealPlusTwo_SetPrice_Int()
+    {
+      int breadAmount = 5;
+      Bread newBread = new Bread(breadAmount);
+      newBread.SetPrice();
+      Assert.AreEqual(20, newBread.SetPrice());
+    }
   }
 }
