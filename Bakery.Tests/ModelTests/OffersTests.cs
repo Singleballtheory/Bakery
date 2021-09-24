@@ -37,5 +37,15 @@ namespace Bakery.Tests
       newPastry.SetPrice();
       Assert.AreEqual(2, newPastry.SetPrice());
     }
+    [TestMethod]
+    public void BreadDeal_SetPrice_Int()
+    {
+      int breadAmount = 2;
+      Bread newBread = new Bread(breadAmount);
+      newBread.SetPrice();
+      Assert.AreEqual(10, newBread.SetPrice());
+
+      // User buys two bread and gets one free so price is still 10
+    }
   }
 }
