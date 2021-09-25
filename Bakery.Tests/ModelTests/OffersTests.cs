@@ -1,7 +1,4 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using Bakery;
 using Offers.Models;
 
 namespace Bakery.Tests
