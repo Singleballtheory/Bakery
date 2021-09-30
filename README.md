@@ -20,8 +20,15 @@ This console app allows the user to see and purchase available goods at Pierre's
 * Open in text editor
 * Make sure you have .Net version 5.0 installed
 * In your terminal navigate into Bakery/Bakery/
-* run commands $ dotnet run
+* Enter in the command line $ dotnet restore
+* Enter in the command line $ dotnet run
 * follow console instructions to use application and have fun!
+
+## Setting Up Tests
+* Note: Follow the setup steps above first
+* In your terminal navigate to the Bakery.Tests directory
+* Enter in the command line $ dotnet test
+
 
 ## Known Bugs
 
